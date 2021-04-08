@@ -1,0 +1,111 @@
+.own-input-group{
+        border: 0.5px solid #eee;
+border-radius: 33px;
+background-color: #f1f1f1;
+      }
+      .own-bg-light{
+        background-color:white!important;
+        margin-top: 0px;
+/* border-radius: 0px 15px 0px 0px; */
+      }
+      .own_style_nav{
+        position: fixed;
+height: 100vh;
+/* width: 200px; */
+      }
+      .sidebar .nav .nav-item{
+        padding: 0 1rem 0 1rem;
+        text-align:center;
+      }
+      .sidebar .nav .nav-item .nav-link{
+        display:block!important;
+      }
+      .main-panel{
+        width:100%;
+      }
+      .clrOwn{
+        color:#c90c0f;
+      }
+      .active{
+        border-left: 4px solid #c90c0f;
+        
+      }
+      li.active  .menu-title{
+        color:#c90c0f;
+      }
+      .card .own-card-body{
+        padding:10px;
+
+    position: relative;
+      }
+      .sidebar .nav .nav-item.active > .nav-link .menu-title {
+    color: #900604;
+    font-family: "ubuntu-medium", sans-serif;
+}
+.sidebar .nav .nav-item.active > .nav-link i {
+    color: #c90c0f;
+}
+.sidebar .nav .nav-item.active {
+    background: #ffffff;
+    border-left: 4px solid #c90c0f !important;
+}
+.nav-link>img{
+	width:30px;
+}
+.online_circle{
+	background: #44b700;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+}
+      .card_msg_icon{
+
+    position: absolute;
+    background: white;
+    padding-top: 7px;
+    bottom: 70px;
+    right: 9px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 3px 2px silver;
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-align: center;
+      }
+      .own-rounded-lg{
+        border-radius: 16px !important;
+overflow: hidden !important;
+      }
+      .ownCase{
+        /* display:none; */
+      }
+      li.dashboard_own:hover div.ownCase{
+        display:block!important;
+        /* transition: 0.2s; */
+      }
+      .own_video_card .card-body{
+        padding:0px;
+      }
+      .card_new{
+      	background: #900604;
+    padding: 2px;
+    color: #fff;
+    display: inline-block;
+    transform: rotate(
+330deg
+);
+    width: 264px;
+    position: absolute;
+    bottom: 9px;
+    /* text-align: center; */
+    text-align: center;
+    font-weight: 600;
+      }
+@media only screen and (max-width: 800px) and (min-width: 300px)  {
+	.card_new{
+  display: none;
+	}
+}
